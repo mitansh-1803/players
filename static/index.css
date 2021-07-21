@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    padding: 20px 2%;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container{
+    padding: 2% 4%;
+    width: 500px;
+    margin: 50px auto;
+    border: 2px solid blue;
+    background-color: skyblue;
+}
+.heading{
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(11, 175, 11);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.main-container{
+    padding: 4%;
+}
+
+.card-wrapper{
+    width: 800px;
+    margin: 50px auto;
+    background-color: #ccc;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+.card-wrapper>div{
+    display: flex;
+    align-items: center;
+}
+
+#player-image{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#name{
+    font-size: 44px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#team{
+    color: #111;
+}
+
+.detail-wrapper>div{
+    width: 50%;
+}
+
+.detail{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 20px 20px 0;
+}
+.detail>span{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+#next-btn,#prev-btn{
+    background-color: #ccc;
+    border: none;
+    padding: 5px 20px;
+    outline: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.change-btn-wrapper{
+    text-align: center;
+}

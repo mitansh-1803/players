@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Players List</title>
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+        <link rel="stylesheet" href="./index.css" />
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <p>Click below buttons to change player!!!</p>
+        </header>
+        <div class="main-container">
+            <div class="change-btn-wrapper">
+                <input type="button" id="prev-btn" value="Prev" />
+                <input type="button" id="next-btn" value="Next" />
+            </div>
+            <div class="card-wrapper">
+                <div>
+                    <img id="player-image" src="" alt="" />
+                    <div>
+                        <h1 id="name"></h1>
+                        <h2 id="team"></h2>
+                    </div>
+                </div>
+                <div class="detail-wrapper">
+                    <div>
+                        <p class="detail">Born:<span id="born"></span></p>
+                        <p class="detail">Birth Place:<span id="birth-place"></span></p>
+                        <p class="detail">Role:<span id="role"></span></p>
+                    </div>
+                    <div>
+                        <p class="detail">Batting Style:<span id="batting-style"></span></p>
+                        <p class="detail">Bowling Style:<span id="bowling-style"></span></p>
+                        <p class="detail">Shirt Number:<span id="tshirt-number"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
